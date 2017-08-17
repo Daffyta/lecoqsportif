@@ -1,0 +1,29 @@
+[debug] [2017-08-17T18:25:20.805Z] ----------------------------------------------------------------------
+[debug] [2017-08-17T18:25:20.808Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2017-08-17T18:25:20.808Z] CLI Version:   3.9.2
+[debug] [2017-08-17T18:25:20.808Z] Platform:      linux
+[debug] [2017-08-17T18:25:20.808Z] Node Version:  v6.11.1
+[debug] [2017-08-17T18:25:20.809Z] Time:          Thu Aug 17 2017 13:25:20 GMT-0500 (CDT)
+[debug] [2017-08-17T18:25:20.809Z] ----------------------------------------------------------------------
+[debug] 
+[warn] ⚠  Deprecation Warning: Firebase Hosting configuration should be moved under "hosting" key.
+[debug] [2017-08-17T18:25:20.824Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-17T18:25:20.824Z] > authorizing via signed-in user
+[debug] [2017-08-17T18:25:20.826Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/lecoqsportif-2429a  
+ Thu Aug 17 2017 13:25:20 GMT-0500 (CDT)
+[debug] [2017-08-17T18:25:21.312Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-17T18:25:21.313Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/lecoqsportif-2429a/tokens  
+ Thu Aug 17 2017 13:25:21 GMT-0500 (CDT)
+[debug] [2017-08-17T18:25:21.972Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/daffyta/www/lecoqsportif'...
+[info] 
+[debug] [2017-08-17T18:25:21.979Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/lecoqsportif-2429a  
+ Thu Aug 17 2017 13:25:21 GMT-0500 (CDT)
+[debug] [2017-08-17T18:25:22.326Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-17T18:25:22.327Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/633218128490/clients/_:getWebAppConfig  
+ Thu Aug 17 2017 13:25:22 GMT-0500 (CDT)
+[debug] [2017-08-17T18:25:22.730Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
