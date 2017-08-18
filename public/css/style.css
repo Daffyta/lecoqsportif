@@ -6,6 +6,19 @@ body {
   text-align: center;
 }
 
+#contact {
+  text-align: center;
+}
+
+#contact .validate {
+  background-color: #fff;
+  border: 2px solid #9f9f9f;
+}
+
+#contact .geners {
+  margin-top: -5%;
+}
+
 #contact .gener {
   width: 100%;
   background-color: #001832;
@@ -17,11 +30,15 @@ body {
 
 #contact .points {
   background-color: #0088bc;
-    width: 100%;
-    padding: 10px;
-    color: #fff;
-    border: 1px solid #0088bc;
-    font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #0088bc;
+  font-weight: bold;
+}
+
+#contact img .stars {
+  width: 50%;
 }
 
 .social-media {
