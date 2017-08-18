@@ -1,38 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>lecoqsportif</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <h1>Miguelito</h1>
+  <header>
+    <section id="help-header">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <p>Envío gratuito a partir de 90 €| Un silbato de regalo por toda compra de más de 100 € con el código: <a href="#">SILBIDO</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="nav-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col s4">
+            <ul id="slide-out" class="side-nav">
+              <li>
+                <div class="user-view">
+                  <div class="nav-wrapper">
+                    <form>
+                      <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search"><i class="fa fa-search" aria-hidden="true"></i></label>
+                        <!-- <span><i class="fa fa-times" aria-hidden="true"></i></span> -->
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </li>
+              <div class="container">
+                <ul class="collapsible" data-collapsible="accordion">
+                  <li>
+                    <div class="collapsible-header">PRET-A-PORTER</div>
+                    <div class="collapsible-body">
+                      <div class="container">
+                        <ul>
+                          <li><a href="#">COLECCIONE</a></li>
+                          <li><a href="#">HOMBRE</a></li>
+                          <li><a href="#">MUJER</a></li>
+                          <li><a href="#">NIÑO</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">ZAPATILLAS</div>
+                    <div class="collapsible-body">
+                      <div class="container">
+                        <ul>
+                          <li><a href="#">HOMBRE</a></li>
+                          <li><a href="#">MUJER</a></li>
+                          <li><a href="#">NIÑO</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">DEPORTES</div>
+                    <div class="collapsible-body">
+                      <div class="container">
+                        <ul>
+                          <li><a href="#">FÚTBOL</a></li>
+                          <li><a href="#">CICLISMO</a></li>
+                          <li><a href="#">RUGBY</a></li>
+                          <li><a href="#">TENIS</a></li>
+                          <li><a href="#">TRAINING</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col s6">
+                    <p><i class="fa fa-user fa-3x" aria-hidden="true"></i></p>
+                    <p>Iniciar sesion</p>
+                  </div>
+                  <div class="col s6">
+                    <p><i class="fa fa-bus fa-3x" aria-hidden="true"></i></p>
+                    <p>Puntos de venta</p>
+                  </div>
+                </div>
+              </div>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
+          </div>
+          <div class="col s4">
+            <img src="assets/img/logo-1.png" alt="logo">
+          </div>
+          <div class="col s4">
+            <i class="fa fa-shopping-bag fa-3x" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
 
+  <section id="carousel">
+    <div class="container">
+      <div class="row">
+        <div class="carousel carousel-slider">
+          <a class="carousel-item red" href="#one!"></a>
+          <a class="carousel-item amber" href="#two!"></a>
+          <a class="carousel-item green" href="#three!"></a>
+          <a class="carousel-item blue" href="#four!"></a>
+        </div>
+      </div>
+    </div>
+    <button type="button" name="button"> DESCUBRE </button>
+  </section>
 
+  <section id="colection">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <h5>COLECCIONES</h5>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col s12">
+          <div class="left-align col s6">
+            <h5>ESSENTIELS</h5>
+          </div>
+          <div class="right-align col s6">
+            <i class="fa fa-caret-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col s12">
+          <div class="left-align col s6">
+            <h5>TRICOLORE</h5>
+          </div>
+          <div class="right-align col s6">
+            <i class="fa fa-caret-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col s12">
+          <div class="left-align col s6">
+            <h5>LCS TECH</h5>
+          </div>
+          <div class="right-align col s6">
+            <i class="fa fa-caret-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col s12">
+          <div class="left-align col s6">
+            <h5>EN EXCLUSIVA</h5>
+          </div>
+          <div class="right-align col s6">
+            <i class="fa fa-caret-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="contact">
+    <div class="container">
+      <p>EMAIL SUSCRIPCIÓN</p>
+      <p>Suscríbase ahora a nuestro boletín para estar informado de nuestras novedades y recibir ofertas especiales</p>
+      <div class="row">
+        <form class="" action="index.html" method="post">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col s6">
+            <button type="button" name="button" class="gener">HOMBRE</button>
+          </div>
+          <div class="col s6">
+            <button type="button" name="button" class="gener">MUJER</button>
+          </div>
+        </div>
+        <button type="button" name="button" class="points">PUNTOS DE VENTA</button>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="social-media">
+            <i class="fa  fa-2x fa-facebook" aria-hidden="true"></i>
+            <i class="fa  fa-2x fa-instagram" aria-hidden="true"></i>
+            <i class="fa  fa-2x fa-twitter" aria-hidden="true"></i>
+            <i class="fa  fa-2x fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa  fa-2x fa-pinterest-p" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col s12">
+          <div class="row">
+            <img src="assets/img/badge-avis-verifies.png" alt="avis">
+          </div>
+          <div class="row">
+            <img src="assets/img/mask_rating.png" alt="stars">
+            <span>8.9 / 10</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
-<script>
-  var config = {
-    apiKey: "AIzaSyBPl316z4zXuLVS8klxkrEwf07yK5_dloU",
-    authDomain: "lecoqsportif-2429a.firebaseapp.com",
-    databaseURL: "https://lecoqsportif-2429a.firebaseio.com",
-    projectId: "lecoqsportif-2429a",
-    storageBucket: "lecoqsportif-2429a.appspot.com",
-    messagingSenderId: "633218128490"
-  };
-  firebase.initializeApp(config);
+  <section id="others">
+    <div class="container">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header">COLECCIONES +</div>
+          <div class="collapsible-body">
+            <div class="container">
+              <ul>
+                <li><a href="#">Pret-a-porter</a></li>
+                <li><a href="#">Zapatillas</a></li>
+                <li><a href="#">Deportes</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">SERVICIO AL CLIENTE+</div>
+          <div class="collapsible-body">
+            <div class="container">
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Condiciones generales de venta</a></li>
+                <li><a href="#">Entrega</a></li>
+                <li><a href="#">Devolución</a></li>
+                <li><a href="#">Seguimiento de pedidos</a></li>
+                <li><a href="#">Servicio al cliente</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">SOBRE COQ SPORTIF+</div>
+          <div class="collapsible-body">
+            <div class="container">
+              <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Filosofía del producto</a></li>
+                <li><a href="#">Aletas</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Empleos</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-  var db = firebase.database();
-  db.ref('metadata').set({
-    app: 'videotutorial',
-    ver: '0.0.1'
-  });
-
-  db.ref("metadata").on('value', function(snapshot){
-    console.log(snapshot.val());
-  });
-</script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <script type="text/javascript" src="js/firebase.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
